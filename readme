@@ -1,0 +1,13 @@
+You need to add a new user because ns4 programs rely on some file path, of course this is optional.
+Then run this script to install ns4,bmv2,p4c-bm,ns4,this needs to take some time. 
+
+
+$ cd /home/kphf1995cm/
+$ sudo su
+# bash install_deps.sh
+If it goes well, then you will come to this folder(/home/kphf1995cm/ns-allinone-3.27/ns-3.27)
+Then just run ns4.
+$ bash run.sh
+If it runs successfully, you can look up the result in this file(res.txt)
+$ cat res.txt
+
