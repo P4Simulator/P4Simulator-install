@@ -1,11 +1,14 @@
-Theses are NS4 install scripts to help you download, install, run NS4 quickly.We have tested it successfully on Ubuntu 16.04.
+These are NS4 install scripts to help you download, install, run NS4 quickly.We have tested it successfully on Ubuntu 16.04.
 
 We recommend to install NS4 step by step, because there may be some errors in the installation process.We also provide a one-click installation script(install_deps.sh) to install NS4. 
  
-At first, You need to add a new user named kphf1995cm because ns4 programs rely on some file path, of course this is optional, if not you need to modify NS4 code.
+At first, You need to add a new user named kphf1995cm because NS4 rely on some file path, of course this is optional, if not you need to modify NS4 code.
 
 create new user:
-$cd /home/kphf1995cm
+$adduser kphf1995cm
+$su kphf1995cm
+$cd ~
+add sudo privilege to the new user.(You can refer to this link: http://www.linuxidc.com/Linux/2010-12/30386.htm)
 $sudo su
 
 Then you can choose one of the following ways to install NS4.
