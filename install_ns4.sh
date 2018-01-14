@@ -29,10 +29,12 @@ Description: Behaviral Model
 Version: 0.0.0
 Libs: -L${libdir} -lsimpleswitch_thrift
 Cflags: -I${includedir}" >/usr/local/lib/pkgconfig/simple_switch.pc
-cd ns-allinone-3.27/
+cd ../ns-allinone-3.27/
 cd ns-3.27/
 cd src
 python create-module.py ns4
 git clone https://github.com/ns-4/NS4-DEV.git
+rm ns4 -rf
 mv NS4-DEV/ ns4
-cd ..
+cd ../../ns4-install/
+
