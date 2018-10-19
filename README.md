@@ -1,9 +1,9 @@
 
 ## Overview
-These are P4Simulator install scripts to help you download, install, run NS4 quickly.We have tested it successfully on Ubuntu 16.04.
+These are P4Simulator install scripts to help you download, install, run P4Simulator quickly.We have tested it successfully on Ubuntu 16.04.
 
 ## P4Simulator Installation
-We recommend to install NS4 step by step, because there may be some errors in the installation process.We also provide a one-click installation script(install_deps.sh) to install NS4. 
+We recommend to install P4Simulator step by step, because there may be some errors in the installation process.We also provide a one-click installation script(install_deps.sh) to install P4Simulator. 
 
 ### download P4Simulator install scripts
    `$ git clone https://github.com/P4Simulator/P4Simulator-install.git`   
@@ -13,7 +13,7 @@ We recommend to install NS4 step by step, because there may be some errors in th
 **You can choose one of the following ways to install P4Simulator.** 
 
 The install process could be time-consuming, and we are thinking about a better way, so stay tuned!. 
-### Way one: install NS4 step by step(recommend)
+### Way one: install P4Simulator step by step(recommend)
 **1 install ns3**
 
 `#bash install_ns3_pre.sh`
