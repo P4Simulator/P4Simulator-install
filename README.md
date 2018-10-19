@@ -1,16 +1,16 @@
 
 ## Overview
-These are NS4 install scripts to help you download, install, run NS4 quickly.We have tested it successfully on Ubuntu 16.04.
+These are P4Simulator install scripts to help you download, install, run NS4 quickly.We have tested it successfully on Ubuntu 16.04.
 
-## NS4 Installation
+## P4Simulator Installation
 We recommend to install NS4 step by step, because there may be some errors in the installation process.We also provide a one-click installation script(install_deps.sh) to install NS4. 
 
-### download NS4 install scripts
-   `$ git clone https://github.com/ns-4/ns4-install.git`   
+### download P4Simulator install scripts
+   `$ git clone https://github.com/P4Simulator/P4Simulator-install.git`   
 
-   `$ cd ns4-install`
+   `$ cd P4Simulator-install`
 
-**You can choose one of the following ways to install NS4.** 
+**You can choose one of the following ways to install P4Simulator.** 
 
 The install process could be time-consuming, and we are thinking about a better way, so stay tuned!. 
 ### Way one: install NS4 step by step(recommend)
@@ -28,17 +28,17 @@ The install process could be time-consuming, and we are thinking about a better 
 
 `#bash install_p4c-bm.sh`
 
-**4 install ns4**
+**4 install P4Simulator**
 
-`#bash install_ns4.sh`
+`#bash install_P4Simulator.sh`
 
-`#bash create_ns4_run.sh`
+`#bash create_P4Simulator_run.sh`
 
-### Way two: install NS4 one step
+### Way two: install P4Simulator one step
 `#bash install_deps.sh`
 
-## Run NS4
-If everything goes well, you will find you are in this folder(ns-3.27),and you need to modify _P4GlobalVar::g_homePath_ value in **src/ns4/examples/p4-demo.cc** to your own home path.(My home path is **/home/kp**),and then just run ns4.
+## Run P4Simulator
+If everything goes well, you will find you are in this folder(ns-3.27),and you need to modify _P4GlobalVar::g_homePath_ value in **src/P4Simulator/examples/p4-demo.cc** to your own home path.(My home path is **/home/kp**),and then just run ns4.
 
 `#bash run.sh`
 
